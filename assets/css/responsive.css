@@ -1,0 +1,176 @@
+/* Min Width 1400px */
+
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1320px;
+    margin: auto;
+  }
+}
+
+/* Min Width 1200px*/
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+    margin: auto;
+  }
+}
+
+/* Min Width 992px*/
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+    margin: auto;
+  }
+}
+
+/* Min Width 768px */
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+    margin: auto;
+  }
+}
+
+/* Min Width 768px and Max Width 991px */
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .container {
+    max-width: 900px;
+    margin: auto;
+  }
+
+  .hero-content h4 {
+    font-size: 20px;
+  }
+
+  .hero-content h2 {
+    font-size: 30px;
+  }
+
+  .hero-img img {
+    max-width: 150px;
+  }
+
+  .reported-issues-top h2,
+  .activities-content h2,
+  .topics-content h2 {
+    font-size: 28px;
+  }
+
+  .reported-issues-top a,
+  .topics-content ul li,
+  .chat-wrapper h4 {
+    font-size: 24px;
+  }
+
+  .reported-issue-title h3,
+  .activities-content ul li {
+    font-size: 20px;
+  }
+
+  .reported-issue-title h3 br {
+    display: none;
+  }
+
+  .reported-issue-icon i {
+    width: 30px;
+    height: 30px;
+    font-size: 18px;
+  }
+
+  .reported-issue-status {
+    display: block;
+    padding-top: 20px;
+  }
+
+  .reported-issue-status span,
+  .chat-content p {
+    font-size: 18px;
+  }
+
+  .reported-issue-status p {
+    font-size: 18px;
+    padding-top: 20px;
+  }
+
+  .chat-content {
+    padding: 22px;
+  }
+
+  .chat-content h3 {
+    font-size: 24px;
+  }
+}
+
+/* Min Width 300px and Max Width 767px */
+
+@media (min-width: 300px) and (max-width: 767px) {
+  .hero-content h4 {
+    font-size: 16px;
+  }
+
+  .hero-content h2 {
+    font-size: 24px;
+  }
+
+  .hero-img img {
+    max-width: 100px;
+  }
+
+  .reported-issues-top h2,
+  .activities-content h2,
+  .topics-content h2 {
+    font-size: 24px;
+  }
+
+  .reported-issues-top a,
+  .topics-content ul li,
+  .chat-wrapper h4 {
+    font-size: 20px;
+  }
+
+  .reported-issue-title h3,
+  .activities-content ul li {
+    font-size: 18px;
+  }
+
+  .reported-issue-title h3 br {
+    display: none;
+  }
+
+  .reported-issue-icon i {
+    width: 30px;
+    height: 30px;
+    font-size: 18px;
+  }
+
+  .reported-issue-status {
+    display: block;
+    padding-top: 20px;
+  }
+
+  .reported-issue-status span,
+  .chat-content p {
+    font-size: 16px;
+  }
+
+  .reported-issue-status p {
+    font-size: 16px;
+    padding-top: 20px;
+  }
+
+  .chat-content {
+    padding: 20px;
+  }
+
+  .chat-content h3 {
+    font-size: 22px;
+  }
+
+  .chat-icon {
+    width: 80px;
+  }
+}

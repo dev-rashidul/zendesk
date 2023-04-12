@@ -1,0 +1,267 @@
+/* Base Styles CSS Start */
+
+/* Font */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  scroll-behavior: smooth;
+}
+
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.align-center {
+  align-items: center;
+}
+
+/* Base Styles CSS End */
+
+/* Hero Section CSS Start */
+
+.hero-wrapper {
+  background: #d9f2e3;
+  padding: 30px 0;
+}
+
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-content h4 {
+  font-size: 30px;
+  color: #383846;
+}
+
+.hero-content h2 {
+  font-size: 48px;
+  color: #383846;
+}
+
+.hero-search-bar {
+  position: relative;
+  display: flex;
+  background: #ffffff;
+  margin-top: -10px;
+  border-radius: 10px;
+}
+
+.hero-search-bar i {
+  font-size: 20px;
+  color: #707070;
+  padding: 20px 10px 20px 20px;
+}
+
+.hero-search-bar input {
+  width: 100%;
+  font-size: 18px;
+  background: transparent;
+  padding: 20px 0;
+  border: none;
+}
+
+.hero-search-bar input:focus {
+  outline: 0;
+}
+
+.hero-search-bar ::placeholder {
+  font-size: 18px;
+  color: #707070;
+}
+
+/* Hero Section CSS End */
+
+/* Reported Issues Section CSS Start */
+
+.reported-issues-wrapper {
+  padding: 30px 0;
+}
+
+.reported-issues-top {
+  padding-bottom: 20px;
+}
+
+.reported-issues-top h2 {
+  font-size: 42px;
+  color: #1a1a1a;
+}
+
+.reported-issues-top a {
+  font-size: 36px;
+  font-weight: 500;
+  color: #2f70d2;
+}
+
+.reported-issue-box {
+  background: #ffffff;
+  padding: 20px;
+  box-shadow: 5px 5px 14px 2px #dddddd;
+  border-radius: 10px;
+}
+
+.reported-issue-icon {
+  padding-right: 15px;
+}
+
+.reported-issue-icon i {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px;
+  color: #ffffff;
+  background: #f9c839;
+  border-radius: 100%;
+}
+
+.reported-issue-content {
+  width: 100%;
+}
+
+.reported-issue-title h3 {
+  font-size: 30px;
+  font-weight: 400;
+  color: #606166;
+}
+
+.reported-issue-title i {
+  color: #373945;
+}
+
+.reported-issue-status {
+  padding-top: 20px;
+}
+
+.reported-issue-status span {
+  font-size: 22px;
+  font-weight: 600;
+  color: #7e4316;
+  background: #fbeb97;
+  padding: 8px 25px;
+  border-radius: 50px;
+}
+
+.reported-issue-status p {
+  font-size: 20px;
+  color: #687078;
+}
+
+/* Reported Issues Section CSS End */
+
+/* Activities Section HTML Start */
+
+.activities-wrapper {
+  padding: 15px 0;
+}
+
+.activities-content h2 {
+  font-size: 42px;
+  color: #1a1a1a;
+  padding-bottom: 10px;
+}
+
+.activities-content ul li {
+  font-size: 22px;
+  color: #15191d;
+  padding: 14px 0;
+}
+
+/* Activities Section HTML End */
+
+/* Topics Section HTML Start */
+
+.topics-wrapper {
+  padding: 15px 0;
+}
+
+.topics-content h2 {
+  font-size: 42px;
+  color: #1a1a1a;
+  padding-bottom: 30px;
+}
+
+.topics-content ul li {
+  font-size: 36px;
+  font-weight: 600;
+  color: #15191d;
+  padding: 25px 0;
+  border-top: 2px solid #f0efef;
+}
+
+/* Topics Section HTML End */
+
+/* Chat Section CSS Start */
+
+.chat-content {
+  position: relative;
+  background: #f5f5f5;
+  padding: 30px 20px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.chat-icon {
+  position: absolute;
+  right: 0px;
+  bottom: -7px;
+  width: 100px;
+}
+
+.chat-content h3 {
+  font-size: 28px;
+  color: #707070;
+  padding-bottom: 10px;
+}
+
+.chat-content p {
+  font-size: 20px;
+  color: #7d7d7d;
+}
+
+.chat-wrapper h4 {
+  font-size: 22px;
+  font-weight: 400;
+  text-align: center;
+  color: #4f525a;
+  padding: 40px 0;
+}
+
+.chat-wrapper h4 a {
+  font-weight: 600;
+  color: #406dcd;
+}
+
+/* Chat Section CSS End */
