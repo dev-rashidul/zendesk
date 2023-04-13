@@ -265,3 +265,204 @@ img {
 }
 
 /* Chat Section CSS End */
+
+/* 
+=============***=============
+Request Page CSS
+=============***============= */
+
+.request-hero-wrapper {
+  background: #f4f6fa;
+  padding-top: 30px;
+}
+
+.active-status-title h3,
+.closed-status-title h3 {
+  font-size: 30px;
+  color: #16191c;
+}
+
+.request-hero-content h2 {
+  font-size: 36px;
+  color: #16191c;
+  margin-bottom: 10px;
+}
+
+.request-hero-content p {
+  font-size: 18px;
+  color: #707070;
+}
+
+.request-hero-img img {
+  max-width: 300px;
+  position: relative;
+  margin-bottom: -5px;
+}
+
+.request-issue-box,
+.solved-issue-box,
+.closed-issue-box {
+  background: #ffffff;
+  /* padding: 20px; */
+  margin-top: 20px;
+}
+
+.request-issue-icon,
+.solved-issue-icon,
+.closed-issue-icon {
+  padding-right: 15px;
+}
+
+.request-issue-icon i {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px;
+  color: #ffffff;
+  background: #f9c839;
+  border-radius: 100%;
+}
+
+.request-issue-content {
+  width: 100%;
+}
+
+.request-issue-title h3 {
+  font-size: 30px;
+  font-weight: 400;
+  color: #606166;
+}
+
+.request-issue-title i {
+  color: #373945;
+}
+
+.request-issue-status {
+  padding-top: 20px;
+}
+
+.request-issue-status span {
+  font-size: 22px;
+  font-weight: 600;
+  color: #7e4316;
+  background: #fbeb97;
+  padding: 8px 25px;
+  border-radius: 50px;
+}
+
+.request-issue-title .time,
+.solved-issue-title .time,
+.closed-issue-title .time {
+  width: 105px;
+}
+
+.request-issue-title .time p,
+.solved-issue-title .time p,
+.closed-issue-title .time p {
+  font-size: 20px;
+  color: #687078;
+  float: right;
+}
+
+.active-status-wrapper {
+  padding-top: 40px;
+}
+
+.solved-issue-icon i {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px;
+  color: #ffffff;
+  background: #6cb968;
+  border-radius: 100%;
+}
+
+.solved-issue-content {
+  width: 100%;
+}
+
+.solved-issue-title h3 {
+  font-size: 30px;
+  font-weight: 400;
+  color: #606166;
+}
+
+.solved-issue-title i {
+  color: #373945;
+}
+
+.solved-issue-status {
+  padding-top: 20px;
+}
+
+.solved-issue-status span {
+  font-size: 22px;
+  font-weight: 600;
+  color: #316342;
+  background: #c1eac0;
+  padding: 8px 25px;
+  border-radius: 50px;
+}
+
+.active-status-wrapper hr,
+.closed-status-wrapper hr {
+  border-top: 1px solid #e8e8e8;
+  margin: 25px 0 0;
+}
+
+/* Closed Status Section HTML Start */
+
+.closed-status-wrapper {
+  padding: 60px 0 40px;
+}
+
+.closed-issue-icon i {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px;
+  color: #888c94;
+  background: #f3f6fa;
+  border-radius: 100%;
+}
+
+.closed-issue-content {
+  width: 100%;
+}
+
+.closed-issue-title h3 {
+  font-size: 30px;
+  font-weight: 400;
+  color: #606166;
+}
+
+.solved-issue-title i {
+  color: #373945;
+}
+
+.closed-issue-status {
+  padding-top: 20px;
+}
+
+.closed-issue-status span {
+  font-size: 22px;
+  font-weight: 600;
+  color: #888c94;
+  background: #f3f6fa;
+  padding: 8px 25px;
+  border-radius: 50px;
+}
+
+.closed-issue-status p {
+  font-size: 20px;
+  color: #687078;
+}
+
+/* Closed Status Section HTML End */
